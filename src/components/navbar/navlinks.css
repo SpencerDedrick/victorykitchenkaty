@@ -1,0 +1,39 @@
+.nav_links {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  list-style: none;
+}
+
+.nav_link {
+  padding: 10px;
+}
+.nav_link a {
+  text-decoration: none;
+  color: #282829;
+  font-size: 20px;
+  transition: all 0.5s ease;
+}
+
+.nav_link a:hover {
+  color: #c90008;
+}
+
+.nav_links_open {
+  transform: translateX(0%);
+}
+
+@media screen and (max-width: 1000px) {
+  .nav_links {
+    display: none;
+  }
+  .collapseMenu .nav_links {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .nav_links {
+    margin: 0 50px;
+  }
+}

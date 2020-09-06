@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.collapseMenu {
+  background: white;
+  position: fixed;
+  right: 0;
+  top: 70px;
+  padding: 20px;
+}
+
+.collapseMenu ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.collapseMenu ul li a:hover {
+  color: #c90008;
+}
+
+.collapseMenu ul li:hover {
+  border-bottom: 1px solid lightgray;
+}
+
+@media screen and (min-width: 1001px) {
+  .collapseMenu .nav_links {
+    display: none;
+  }
+  .collapseMenu {
+    display: none;
+  }
+}

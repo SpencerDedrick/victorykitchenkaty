@@ -1,0 +1,46 @@
+.nav_logo_link {
+  font-size: 30px;
+  font-weight: bolder;
+  padding: 0 100px;
+  color: #282829;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+.nav_logo_link:hover {
+  color: #c90008;
+}
+
+.home_button {
+  font-size: 30px;
+  font-weight: bolder;
+  padding: 0 100px;
+  color: #c90008;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  display: none;
+}
+
+.home_button:hover {
+  color: #282829;
+}
+
+@media screen and (max-width: 550px) {
+  .nav_logo_link {
+    display: none;
+  }
+  .home_button {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .nav_logo_link {
+    padding: 0 50px;
+    font-size: 25px;
+  }
+
+  .home_button {
+    padding: 0 50px;
+  }
+}
