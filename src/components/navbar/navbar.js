@@ -59,6 +59,7 @@ class Navbar extends Component {
         <Collapsemenu
           showMenu={this.state.showMenu}
           changeRoute={this.props.changeRoute}
+toggleMenu={this.props.toggleMenu}
         />
       </div>
     );
