@@ -7,7 +7,7 @@ class Collapsemenu extends Component {
     if (this.props.showMenu === true) {
       return (
         <div className="collapseMenu">
-          <Navlinks changeRoute={this.props.changeRoute} />
+          <Navlinks changeRoute={this.props.changeRoute} toggleMenu={this.props.toggleMenu}/>
         </div>
       );
     }
