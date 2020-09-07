@@ -7,7 +7,6 @@ const Landing2 = (props) => {
       <landing className="landing2_wrapper">
         <div className="landing2_text">
           <h1>Our Story</h1>
-
           <p>
             Victory Kitchen is an organization that serves hot meals to
             individuals who are homeless and/or experiencing food insecurity.

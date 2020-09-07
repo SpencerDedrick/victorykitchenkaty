@@ -12,7 +12,6 @@ const Landing1 = (props) => {
               className="landing1_img"
               alt="logo"
             />
-
             <p>
               “The King will reply, ‘Truly I tell you, whatever you did for one
               of the least of these brothers and sisters of mine, you did for
