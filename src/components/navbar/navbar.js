@@ -52,7 +52,6 @@ class Navbar extends Component {
             <div
               className="menu_button"
               onClick={(event) => {
-                this.handleClick(event);
                 this.toggleMenu();
               }}
             >

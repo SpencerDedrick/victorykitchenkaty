@@ -1,15 +1,16 @@
 import React, { Component } from "react";
 import "./menubutton.css";
+
 const handleClick = (event) => {
   event.target.classList.toggle("toggle");
 };
+
 class Menubutton extends Component {
   render() {
     return (
       <div className="menu_button_wrapper">
         <div
           className="menu_button"
-          id="menubutton"
           onClick={(event) => {
             handleClick(event);
             this.props.toggleMenu();
