@@ -14,9 +14,9 @@ const Landing1 = (props) => {
               hand to someone in need. Victory Kitchen is collecting funds to
               provide hot meals for the homeless community within Houston, Katy
               and the surrounding areas. All contributions will go towards
-              providing warm, nutritious meals to our street friends, in
-              addition to bibles and toiletry supplies to give out during our
-              street ministries.
+              providing warm, nutritious meals to our street friends. We are
+              also collecting bibles and toiletry supplies to give out during
+              our street ministries.
             </p>
 
             <p>

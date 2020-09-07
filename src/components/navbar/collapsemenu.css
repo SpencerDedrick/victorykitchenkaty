@@ -4,14 +4,14 @@
   box-sizing: border-box;
 }
 
-.collapseMenu {
+/* .collapseMenu {
   background: white;
   position: absolute;
   right: 0;
   top: 80px;
   padding: 20px;
   z-index: 10;
-}
+} */
 
 .collapseMenu ul {
   display: flex;

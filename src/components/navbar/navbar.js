@@ -9,6 +9,9 @@ class Navbar extends Component {
     this.state = {
       showMenu: false,
     };
+
+    this.closeMenu = this.closeMenu.bind(this);
+    this.toggleMenu = this.toggleMenu.bind(this);
   }
 
   handleClick = (event) => {
@@ -17,6 +20,10 @@ class Navbar extends Component {
 
   toggleMenu = () => {
     this.setState({ showMenu: !this.state.showMenu });
+  };
+
+  closeMenu = () => {
+    this.setState({ showMenu: false });
   };
 
   render() {
@@ -59,7 +66,8 @@ class Navbar extends Component {
         <Collapsemenu
           showMenu={this.state.showMenu}
           changeRoute={this.props.changeRoute}
-toggleMenu={this.props.toggleMenu}
+          closeMenu={this.closeMenu}
+          toggleMenu={this.toggleMenu}
         />
       </div>
     );

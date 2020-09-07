@@ -15,9 +15,9 @@ const Landing1 = (props) => {
             <p>
               “The King will reply, ‘Truly I tell you, whatever you did for one
               of the least of these brothers and sisters of mine, you did for
-              me.’
+              me.’ -Matthew 25:40
             </p>
-            <p>Matthew 25:40</p>
+
             <div className="landing1_links">
               <button
                 href="#"

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class Navlinks extends Component {
+class Collapselinks extends Component {
   render() {
     return (
       <ul className="nav_links">
@@ -9,6 +9,7 @@ class Navlinks extends Component {
             href="#"
             onClick={() => {
               this.props.changeRoute("home");
+              this.props.closeMenu();
             }}
           >
             Home
@@ -19,6 +20,7 @@ class Navlinks extends Component {
             href="#"
             onClick={() => {
               this.props.changeRoute("about");
+              this.props.closeMenu();
             }}
           >
             About
@@ -29,6 +31,7 @@ class Navlinks extends Component {
             href="#"
             onClick={() => {
               this.props.changeRoute("gallery");
+              this.props.closeMenu();
             }}
           >
             Gallery
@@ -39,6 +42,7 @@ class Navlinks extends Component {
             href="#"
             onClick={() => {
               this.props.changeRoute("support");
+              this.props.closeMenu();
             }}
           >
             Support VK
@@ -61,4 +65,4 @@ class Navlinks extends Component {
   }
 }
 
-export default Navlinks;
+export default Collapselinks;
