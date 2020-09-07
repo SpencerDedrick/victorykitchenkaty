@@ -6,29 +6,29 @@ const Landing1 = (props) => {
     <div>
       <div className="landing1" id="landing1">
         <landing>
-          <div className="landing1_text">
-            <img src={require("../../Assets/VKWhite.png")} height="300px" />
-            <p>
-              The King will reply, ‘Truly I tell you, whatever you did for one
-              of the least of these brothers and sisters of mine, you did for
-              me.’
-            </p>
-            <p>-Matthew 25:40</p>
+          <div className="landing1_content">
+            <img
+              src={require("../../Assets/VKWhite.png")}
+              className="landing1_img"
+              alt="logo"
+            />
+
             <div className="landing1_links">
-              <a
+              <button
                 href="#"
-                id="view_services"
+                id="learn_more"
                 onClick={() => props.changeRoute("about")}
               >
                 Learn more
-              </a>
-              <a href="#" id="make_appointment">
+              </button>
+              <button
+                href="#"
+                id="learn_more"
+                onClick={() => props.changeRoute("support")}
+              >
                 Get Involved
-              </a>
+              </button>
             </div>
-          </div>
-          <div>
-            <i class="fas fa-arrow-alt-circle-down"></i>
           </div>
         </landing>
       </div>

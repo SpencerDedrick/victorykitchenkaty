@@ -8,7 +8,7 @@ const handleClick = (event) => {
 class Menubutton extends Component {
   render() {
     return (
-      <div>
+      <div className="menu_button_wrapper">
         <div
           className="menu_button"
           onClick={(event) => {

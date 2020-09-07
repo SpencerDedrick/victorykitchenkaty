@@ -20,11 +20,8 @@ class Navlinks extends Component {
           </a>
         </li>
         <li className="nav_link">
-          <a
-            href="https://www.ofnoreputation.com/collections/causes/products/victory-kitchen"
-            target="_blank"
-          >
-            Shop
+          <a href="#" onClick={() => this.props.changeRoute("support")}>
+            Support VK
           </a>
         </li>
         {/* <li className="nav_link">

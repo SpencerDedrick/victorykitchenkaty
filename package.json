@@ -13,8 +13,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-fontawesome": "^1.7.1",
-    "react-photo-gallery": "^8.0.0",
-    "react-scripts": "3.4.3"
+    "react-photo-gallery": "^8.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -36,5 +35,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-scripts": "^3.4.3"
   }
 }

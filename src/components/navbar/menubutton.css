@@ -3,10 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+.menu_button_wrapper:hover {
+  cursor: pointer;
+}
 
 .menu_button {
   display: none;
   margin: 40px;
+}
+.menu_button div:hover {
+  cursor: pointer;
 }
 
 .menu_button div {
@@ -15,7 +21,6 @@
   background-color: black;
   margin: 5px;
   transition: all 0.3s ease;
-  pointer-events: none;
 }
 
 .toggle .menu_line1 {
@@ -31,5 +36,9 @@
 @media screen and (max-width: 1000px) {
   .menu_button {
     display: block;
+  }
+
+  .menu_button_wrapper:hover {
+    cursor: pointer;
   }
 }

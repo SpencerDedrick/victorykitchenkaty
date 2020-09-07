@@ -6,8 +6,8 @@ const Landing2 = () => {
     <div className="landing2" id="landing2">
       <landing className="landing2_wrapper">
         <div className="landing2_text">
-          <h1>Victory Kitchen</h1>
-          <h2>Our Story</h2>
+          <h1>Our Story</h1>
+
           <p>
             Victory Kitchen is an organization that serves hot meals to
             individuals who are homeless and/or experiencing food insecurity.
@@ -22,6 +22,7 @@ const Landing2 = () => {
             serve hope to those who are lost, and feed the souls of those that
             hunger.
           </p>
+          <button>See our Work</button>
         </div>
         <div className="landing2_image">
           <img src={require("../../Assets/VKphoto.jpg")}></img>

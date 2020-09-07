@@ -1,16 +1,13 @@
 .landing2 {
   position: relative;
-  width: 60%;
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
+  width: 80%;
+  height: 80vh;
   font-family: "Roboto", sans-serif;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 100px;
   text-align: justify;
 }
 
@@ -20,14 +17,14 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: top;
 }
 
 .landing2_text {
-  height: 85vh;
+  height: 50vh;
   margin-right: 20px;
 }
-.landing2_text h2 {
+.landing2_text h1 {
   color: #282829;
 
   border-bottom: 4px solid var(--primary);
@@ -46,14 +43,70 @@
 
 .landing2_text p {
   padding: 10px;
-  font-size: 20px;
+  font-size: 16px;
   color: rgb(147, 147, 147);
   letter-spacing: 1px;
   line-height: 30px;
   font-weight: bold;
 }
 .landing2_image img {
-  height: 80vh;
+  max-height: 550px;
   width: auto;
-  padding: 20px;
+}
+
+.landing2 button {
+  display: none;
+}
+
+@media screen and (max-width: 1100px) {
+  .landing2 {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.9)
+      ),
+      url("../../Assets//VKphoto.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+    height: 850px;
+    display: inline-block;
+  }
+  .landing2_wrapper {
+    margin-top: 50px;
+  }
+  .landing2 img {
+    display: none;
+  }
+
+  .landing2 p {
+    color: white;
+    margin-bottom: 5px;
+    padding: 8px;
+  }
+
+  .landing2 h1 {
+    color: white;
+    margin-bottom: 15px;
+  }
+
+  .landing2 button {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    text-decoration: none;
+    background: transparent;
+    padding: 10px;
+    margin: 20px auto;
+    font-size: 20px;
+    transition: all 0.5s ease;
+    max-width: 250px;
+    display: block;
+  }
+
+  .landing2 button:hover {
+    cursor: pointer;
+    background: rgba(201, 0, 8, 0.3);
+    cursor: pointer;
+  }
 }

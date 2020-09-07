@@ -6,23 +6,27 @@ const Landing = () => {
   return (
     <div className="footer">
       <div className="footer_wrapper">
-        <a>
-          <img src={require("../../Assets/VKLogoWhite.png")} height="75px" />
-        </a>
+        <div className="contacts">
+          <h3>Contact Us</h3>
+          <p>Email: victorykitchen_serve@outlook.com</p>
+          <p>Phone:555-555-5555</p>
+        </div>
 
         <div className="footer_socialmedia">
+          <a href="mailto:victorykitchen_serve@outlook.com">
+            <FontAwesomeIcon icon="envelope" size="2x" className="icon" />
+          </a>
           <a href="https://www.facebook.com/pg/victorykitchenkaty">
-            {" "}
             <FontAwesomeIcon
               icon={["fab", "facebook-square"]}
-              size="3x"
+              size="2x"
               className="icon"
             />
           </a>
           <a href="#">
             <FontAwesomeIcon
               icon={["fab", "instagram-square"]}
-              size="3x"
+              size="2x"
               className="icon"
             />
           </a>

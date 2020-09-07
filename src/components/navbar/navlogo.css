@@ -1,7 +1,7 @@
 .nav_logo_link {
   font-size: 30px;
   font-weight: bolder;
-  padding: 0 100px;
+  padding: 0 50px;
   color: #282829;
   text-decoration: none;
   transition: all 0.5s ease;
@@ -36,11 +36,11 @@
 
 @media screen and (max-width: 1100px) {
   .nav_logo_link {
-    padding: 0 50px;
+    padding: 0 25px;
     font-size: 25px;
   }
 
   .home_button {
-    padding: 0 50px;
+    padding: 0 25px;
   }
 }

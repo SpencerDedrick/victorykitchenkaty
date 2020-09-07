@@ -11,16 +11,44 @@
 .footer_wrapper {
   display: flex;
   justify-content: space-around;
-  margin: 0px 40px;
+  margin: 0px 20px;
   align-items: center;
 }
-
+.contacts {
+  text-align: left;
+  color: white;
+}
 .footer_socialmedia {
   display: flex;
-  width: 10%;
-  justify-content: space-between;
+  width: 15%;
+  justify-content: space-around;
 }
 
 .icon {
   color: #666666;
+  transition: all 0.5s ease;
+}
+
+.icon:hover {
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 750px) {
+  .icon {
+    margin: 5px;
+  }
+  .footer_wrapper {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
+
+  .footer {
+    height: auto;
+  }
+
+  .footer_socialmedia {
+    width: 60%;
+  }
 }
