@@ -32,13 +32,13 @@ const Landing1 = (props) => {
               555-555-5555 or email victorykitchen_serve@outlook.com
             </h4>
             <div className="landing3_links">
-              <button
+              <a
                 href="https://www.ofnoreputation.com/collections/causes/products/victory-kitchen"
                 id="learn_more"
                 target="_blank"
               >
                 Purchase a Shirt
-              </button>
+              </a>
               <a
                 href="https://www.paypal.me/victorykitchen"
                 id="support_victory_kitchen"

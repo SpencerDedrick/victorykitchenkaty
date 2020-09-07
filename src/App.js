@@ -29,7 +29,7 @@ function App() {
           {/*  <Landing3 changeRoute={changeRoute} /> */}
         </div>
       ) : route === "about" ? (
-        <Landing2 />
+        <Landing2 changeRoute={changeRoute} />
       ) : route === "gallery" ? (
         <Gallery1 changeRoute={changeRoute} />
       ) : route === "support" ? (

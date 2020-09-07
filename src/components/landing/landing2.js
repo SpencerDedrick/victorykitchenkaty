@@ -1,7 +1,7 @@
 import React from "react";
 import "./landing2.css";
 
-const Landing2 = () => {
+const Landing2 = (props) => {
   return (
     <div className="landing2" id="landing2">
       <landing className="landing2_wrapper">
@@ -22,7 +22,9 @@ const Landing2 = () => {
             serve hope to those who are lost, and feed the souls of those that
             hunger.
           </p>
-          <button>See our Work</button>
+          <button onClick={() => props.changeRoute("gallery")}>
+            See our Work
+          </button>
         </div>
         <div className="landing2_image">
           <img src={require("../../Assets/VKphoto.jpg")}></img>

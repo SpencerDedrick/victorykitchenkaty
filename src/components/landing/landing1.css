@@ -29,9 +29,9 @@
 .landing1_content {
   width: 100%;
   position: relative;
-  top: 30%;
+  top: 40%;
   left: 50%;
-  transform: translate(-50%, -70%);
+  transform: translate(-50%, -60%);
   color: #eee;
   text-align: center;
 }
@@ -51,11 +51,10 @@
 
 .landing1_content p {
   font-family: "Roboto", sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   color: lightgray;
   width: 50%;
   margin: auto;
-  padding: 10px;
 }
 
 .landing1_links {

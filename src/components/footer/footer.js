@@ -16,7 +16,10 @@ const Landing = () => {
           <a href="mailto:victorykitchen_serve@outlook.com">
             <FontAwesomeIcon icon="envelope" size="2x" className="icon" />
           </a>
-          <a href="https://www.facebook.com/pg/victorykitchenkaty">
+          <a
+            href="https://www.facebook.com/pg/victorykitchenkaty"
+            target="_blank"
+          >
             <FontAwesomeIcon
               icon={["fab", "facebook-square"]}
               size="2x"
